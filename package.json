@@ -1,0 +1,35 @@
+{
+  "name": "einer-utils",
+  "version": "0.0.1",
+  "description": "工具库",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "author": "jinbin",
+  "license": "MPL-2.0",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node __tests__/index.test.js",
+    "lint": "eslint --fix",
+    "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeronehost/einer-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeronehost/einer-utils/issues"
+  },
+  "homepage": "https://github.com/zeronehost/einer-utils#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0",
+    "rollup": "^2.47.0"
+  },
+  "dependencies": {
+    "einer-type": "^0.0.2"
+  }
+}

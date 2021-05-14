@@ -23,11 +23,10 @@ yarn add einer-utils
 - `camelToLine`
 - `lineToCamel`
 
-
 ## 示例
 
 ```javascript
-import {camelUpperToLower} from "einer-utils";
+import { camelUpperToLower } from "einer-utils";
 
 console.log(camelUpperToLower("CamelUpperToLower")); // -> camelUpperToLower
 ```
